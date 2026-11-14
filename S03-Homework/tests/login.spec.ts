@@ -18,4 +18,8 @@ test('user can log in to City Services', async ({ page }) => {
   
   // 5. Wait for and verify the redirect to the dashboard
   await expect(page).toHaveURL('http://localhost:5173/dashboard');
+
+  // 6. Verify that the dashboard <h1> heading is visible
+  const dashboardHeading = page.locator('[data-testid="cs-all-requests-page"] h1');
+  await expect(dashboardHeading).toBeVisible();
 });
