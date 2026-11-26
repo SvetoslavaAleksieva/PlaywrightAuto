@@ -1,0 +1,17 @@
+[
+  { "id": 1, "title": "Broken street light", "priority": 2, "status": "In Review" },
+  { "id": 2, "title": "Pothole on Vitosha Blvd", "priority": 1, "status": "Submitted" },
+  { "id": 3, "title": "Graffiti on the school wall", "priority": 5, "status": "Resolved" },
+  { "id": 4, "priority": 3, "status": "Submitted" },
+  { "id": 5, "title": "Water leak on Rakovski Street", "priority": 3, "status": "In Review" },
+  { "id": 6, "title": "Fallen tree blocks the path", "priority": 2, "status": "Submitted" },
+  { "id": 7, "title": "Missing manhole cover", "priority": "high", "status": "Submitted" },
+  { "id": 8, "title": "Broken swing in the park", "priority": 4, "status": "Waiting for Info" },
+  { "id": 9, "title": "Bin", "priority": 3, "status": "Done" },
+  { "id": 10, "title": "Noisy neighbours at night", "priority": 4, "status": "Submitted" }
+]
+
+
+
+
+

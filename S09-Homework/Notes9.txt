@@ -1,0 +1,41 @@
+Checking 10 requests...
+
+ValidationError: Request 4 is invalid
+  - title is missing
+ValidationError: Request 7 is invalid
+  - priority must be a number, got "high"
+ValidationError: Request 9 is invalid
+  - title is shorter than 5 characters
+  - status "Done" is not allowed
+
+Valid: 7, invalid: 3
+
+-------------------------------------------------------
+
+With no requests.json at all:
+
+FileLoadError: Could not read or parse requests.json
+Checking 0 requests...
+
+Valid: 0, invalid: 0
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------
+
+How they work:
+
+extends Error: each class is a kind of Error, so it can be thrown and caught like any other error. It just carries extra information: fileName for one, and requestId and problems for the other.
+super(...) passes the message up to the built-in Error, so error.message works.
+this.name sets the label printed in front of the message.
+Throwing: loadRequests throws a FileLoadError when reading or parsing fails. validateRequest throws a ValidationError when it finds problems.
+Catching: each catch uses instanceof to check which kind of error arrived. Anything unexpected is thrown again with throw error, so real bugs aren't hidden.
