@@ -1,0 +1,8 @@
+[
+  { "id": 601, "title": "Fallen tree blocks the bike path", "category": "Parks", "priority": 2, "status": "In Review", "hoursOpen": 50 },
+  { "id": 602, "title": "Bench broken in the city garden", "category": "Parks", "priority": 0, "status": "Submitted", "hoursOpen": 20 },
+  { "id": 603, "title": "Traffic light stuck on red", "category": "Lighting", "priority": 2.5, "status": "In Review", "hoursOpen": 6 },
+  { "id": 604, "title": "Water leak under the bridge", "category": "Water", "priority": 1, "status": "Submitted", "hoursOpen": -3 },
+  { "id": 6.5, "title": "Low water pressure in block 12", "category": "Water", "priority": 3, "status": "Resolved", "hoursOpen": 40 },
+  { "id": 606, "title": "      ", "category": "Noise", "priority": 4, "status": "Submitted", "hoursOpen": 10 }
+]

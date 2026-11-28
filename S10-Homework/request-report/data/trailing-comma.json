@@ -1,0 +1,4 @@
+[
+  { "id": 501, "title": "Pothole in front of the school", "category": "Roads", "priority": 1, "status": "In Review", "hoursOpen": 9 },
+  { "id": 502, "title": "Overflowing bins near the market", "category": "Waste", "priority": 3, "status": "Submitted", "hoursOpen": 12 },
+]

@@ -1,0 +1,8 @@
+[
+  { "id": 701, "title": "Missing manhole cover", "category": "Roads", "priority": 1, "status": "Resolved", "hoursOpen": 3 },
+  { "id": 702, "title": "Noisy construction at night", "category": "Noise", "priority": 4, "status": "submitted", "hoursOpen": 80 },
+  { "id": 703, "title": "Recycling not collected this week", "category": "Waste", "priority": "1", "status": "In Review", "hoursOpen": 75 },
+  { "id": 704, "title": "Graffiti on the library wall", "category": "Parks", "priority": 5, "status": "Resolved", "hoursOpen": "140" },
+  { "id": 705, "title": "Broken swing on the playground", "category": "", "priority": 3, "status": "Submitted", "hoursOpen": 30 },
+  [701, "Missing manhole cover", "Roads", 1, "Resolved", 3]
+]
